@@ -8,5 +8,6 @@ let hasAttendedDiscountEvent = true;
 let isPlatinum = false;
 
 let hasPromotion;
+hasPromotion = ((lastMonthPaidMoreThan4000 >= 4000 && isWeekday && !hasBoughtProductFromITCategory)|| isPlatinum);
 
 console.log(hasPromotion);
